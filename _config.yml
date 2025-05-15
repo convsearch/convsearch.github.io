@@ -1,0 +1,19 @@
+title: Cayman theme
+description: Cayman is a clean, responsive theme for GitHub Pages.
+show_downloads: false
+theme: jekyll-theme-cayman
+
+conference_name: "Conversational Search: From Fundamentals to Frontiers in the LLM Era"
+conference_cikm: "on the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2025)"
+conference_venue: "13th to 17th July 2025, Padua, Italy."
+conference_intro: "Will be held from 13th to 17th July 2025"
+google_analytics: G-T8FCCBB6BD
+
+github:
+  zip_url: http://www.google.com
+
+collections:
+  organisers:
+    output: true
+  speakers:
+    output: true
