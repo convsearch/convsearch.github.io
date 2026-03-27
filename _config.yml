@@ -13,7 +13,7 @@ github:
   zip_url: http://www.google.com
 
 collections:
-  organisers:
+  ecir2026_organisers:
     output: true
   sigir2025_organisers:
     output: true
