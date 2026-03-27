@@ -10,11 +10,11 @@
     <meta name="description" content="{{ site.description }}"">
     <meta property=" og:image" content="https://kdd-milets.github.io/milets2022/assets/img/thumbnail.jpg">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ site.conference_name }}">
-    <meta property="og:description" content="{{ site.conference_name }}">
+    <meta property="og:title" content="{{ page.conference_name | default: site.conference_name }}">
+    <meta property="og:description" content="{{ page.conference_name | default: site.conference_name }}">
 
 
-    <title>{{ site.conference_name}}</title>
+    <title>{{ page.conference_name | default: site.conference_name }}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -57,10 +57,10 @@
         <div class="container">
             <div class="intro-text" style="color:white;">
 
-                <div class="intro-heading">{{ site.conference_name }}</div>
-                <div class="intro-lead-in"> {{ site.conference_cikm }}
+                <div class="intro-heading">{{ page.conference_name | default: site.conference_name }}</div>
+                <div class="intro-lead-in"> {{ page.conference_cikm | default: site.conference_cikm }}
                 </div>
-                <div class="intro-lead-in"> {{ site.conference_venue }}
+                <div class="intro-lead-in"> {{ page.conference_venue | default: site.conference_venue }}
                 </div>
             </div>
         </div>
