@@ -20,7 +20,7 @@
     <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{{ '/assets/css/agency.css' | relative_url }}?v=3" rel="stylesheet">
+    <link href="{{ '/assets/css/agency.css' | relative_url }}?v=4" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="{{ '/assets/css/font-awesome.min.css' | relative_url }}" rel="stylesheet" type="text/css">
@@ -47,7 +47,7 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index{% unless page.edition %} home-front{% endunless %}">
 
     <!-- Navigation -->
     {% include nav-bar.html%}

@@ -6,6 +6,6 @@ loc: Canada
 img: assets/img/jianyun.png
 personal-page: http://rali.iro.umontreal.ca/nie-site/jian-yun-nie-en/
 email: nie@iro.umontreal.ca
-order: 5
+order: 4
 row: 1
 ---
