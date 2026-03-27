@@ -287,7 +287,7 @@ header {
     color: #333;
 }
 
-/* Homepage only: ECIR 2026 (index has no page.edition) */
+/* ECIR 2026 edition (body.home-front on ecir2026 page) */
 body.home-front header {
     background-image: url(../img/delft.jpg);
 }
