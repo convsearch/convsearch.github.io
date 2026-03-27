@@ -662,10 +662,11 @@ section h3.section-subheading {
     text-transform: none
 }
 
+/* Tight spacing for org / location / email (override Bootstrap p margins on all pages) */
 .team-member p {
-    margin-top: 0;
-    margin-bottom: 3px;
-    line-height: 1.35
+    margin-top: 0 !important;
+    margin-bottom: 3px !important;
+    line-height: 1.35 !important
 }
 
 aside.clients img {
