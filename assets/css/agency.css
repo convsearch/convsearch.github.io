@@ -221,6 +221,17 @@ fieldset[disabled] .btn-xl.active {
     outline: 0
 }
 
+/* Dropdown menu: white navbar text would be invisible on light menu background */
+.navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: #333;
+}
+
+.navbar-default .navbar-nav .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .dropdown-menu > li > a:focus {
+    color: #fec503;
+    background-color: #eee;
+}
+
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
