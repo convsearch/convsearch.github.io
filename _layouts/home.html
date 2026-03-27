@@ -66,11 +66,21 @@
         </div>
     </header>
 
+    {% if page.edition == "sigir2025" %}
+    {% include summary-sigir2025.html class="bg-mid-gray"%}
+    {% include schedule-sigir2025.html %}
+    {% include organiser-sigir2025.html class="bg-mid-gray"%}
+    {% else %}
     {% include summary.html class="bg-mid-gray"%}
     {% include schedule.html %}
     {% include organiser.html class="bg-mid-gray"%}
+    {% endif %}
     <!--{% include references.html %}-->
+    {% if page.edition == "sigir2025" %}
+    {% include contact-sigir2025.html class="bg-mid-gray"%}
+    {% else %}
     {% include contact.html class="bg-mid-gray"%}
+    {% endif %}
 
     <!-- jQuery -->
     <script src="{{ '/assets/js/jquery.js' | relative_url }}"></script>

@@ -15,5 +15,7 @@ github:
 collections:
   organisers:
     output: true
+  sigir2025_organisers:
+    output: true
   speakers:
     output: true
