@@ -20,7 +20,7 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+// Closes the responsive menu when a real nav link is clicked (not the Editions dropdown toggle)
+$('.navbar-collapse ul li a').not('.dropdown-toggle').on('click', function() {
     $('.navbar-toggle:visible').click();
 });
