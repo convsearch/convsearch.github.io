@@ -298,6 +298,17 @@ body.home-front header .intro-text {
     padding-bottom: 62px;
 }
 
+/* WWW 2026 edition (body.home-www2026 on www2026 page) */
+body.home-www2026 header {
+    background-color: #333;
+    background-image: url(../img/dubai.png);
+}
+
+body.home-www2026 header .intro-text {
+    padding-top: 142px;
+    padding-bottom: 62px;
+}
+
 header .intro-text {
     padding-top: 130px;
     padding-bottom: 50px
@@ -327,6 +338,11 @@ header .intro-text .intro-heading {
     }
 
     body.home-front header .intro-text {
+        padding-top: 150px;
+        padding-bottom: 72px;
+    }
+
+    body.home-www2026 header .intro-text {
         padding-top: 150px;
         padding-bottom: 72px;
     }

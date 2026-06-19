@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect_to: /ecir2026/
+redirect_to: /www2026/
 ---
